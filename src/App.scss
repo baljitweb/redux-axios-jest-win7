@@ -1,0 +1,16 @@
+ body{
+     background-color: #f5f5f5;
+     margin: 0 20%;
+     padding: 0;
+
+     .main{
+         width:100%;
+         margin: 10px auto;
+         background-color: rgb(245, 230, 210);
+         
+         .article{
+             max-height: 400px;
+             overflow-y: scroll;
+         }
+     }
+ }
